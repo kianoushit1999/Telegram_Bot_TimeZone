@@ -62,7 +62,7 @@ def exit_bot(update, context):
 
 def main():
     logging.info('Start action of the my telegram bot now')
-    updater = Updater(token="1317092751:AAGGYcnGmN4gGeIw4NDouPDpph9j9gUoU6w", use_context=True)
+    updater = Updater(token="token", use_context=True)
     pd = updater.dispatcher
 
     conv_hand = ConversationHandler(
